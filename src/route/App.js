@@ -11,7 +11,7 @@ import Page2 from '@/page/page2'
 export default class App extends Component {
   render () {
     return (
-      <Router>
+      <Router  basename = "react-app">
         <Switch>
           <AnimatedRouter timeout={300}>
             <Route exact path='/' component={Index} />
